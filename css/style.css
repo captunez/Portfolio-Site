@@ -1,0 +1,110 @@
+body{
+	margin: 0px;
+	margin-left: 1vw;
+	margin-right: 1vw;
+
+}
+header {
+	width: 100%;
+	border-bottom: 5px solid #7d97ad;
+	display: flex;
+	text-transform: uppercase;
+	height: 200px;
+
+}
+
+img {
+  border-style: none;
+}
+
+#logo {
+	width: 20%;
+	padding: 2vw;
+	height: 100px;
+	min-width: 225px;
+}
+
+#brief_info{
+	width: 80%;
+	float: right;
+	text-align: right;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	padding: 2vw;
+}
+
+#brief_info h1{
+	width: 100%;
+	margin: 0;
+	color: #2d3c49;
+	letter-spacing: 3px;
+
+}
+
+#brief_info span{
+	color: #2d3c49;
+	letter-spacing: 3px;
+}
+
+#panel {
+	width: 96%;
+	padding: 2vw;
+}
+
+#panel img#middle_background{
+	width: 100%;
+	height: 400px;
+}
+
+#works {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 2vw;
+}
+
+#works h1{
+	display: inline-block;
+	padding-left: 2vw;
+	width: 100%;
+	color: #ccc;
+}
+
+.one_of_three{
+	width: 30%;
+	padding: 1vw;
+	text-align: center;
+}
+
+.one_of_three h2{
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.work_image{
+	width: 100%;
+	max-width: 500px;
+	height: 200px;
+}
+
+.work_url{
+	font-size: 10px;
+}
+
+
+footer{
+	width: 100%;
+	padding: 2vw;
+}
+
+ul{
+	list-style: none;
+}
+
+@media screen and (max-width: 1050px) {
+    .one_of_three{
+    	width: 100%;
+    	padding: 2vw;
+    	text-align:center;
+    }
